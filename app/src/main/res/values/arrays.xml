@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_relevance_label</item>
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_relevance_value</item>
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+    </string-array>
+
+    <string-array name="settings_page_size_labels">
+        <item>@string/settings_page_size_ten_label</item>
+        <item>@string/settings_page_size_twentyfive_label</item>
+        <item>@string/settings_page_size_fifty_label</item>
+    </string-array>
+
+    <string-array name="settings_page_size_values">
+        <item>@string/settings_page_size_ten_value</item>
+        <item>@string/settings_page_size_twentyfive_value</item>
+        <item>@string/settings_page_size_fifty_value</item>
+    </string-array>
+    <string-array name="categorylist">
+        <item>@string/technology</item>
+        <item>@string/politics</item>
+        <item>@string/sports</item>
+
+    </string-array>
+
+
+    <string name="sports">Sports</string>
+    <string name="politics">Politics</string>
+    <string name="technology">Tech</string>
+</resources>

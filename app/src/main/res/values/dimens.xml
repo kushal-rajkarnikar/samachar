@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Fonts
+    <dimen name="font_xxsmall">10sp</dimen>
+    <dimen name="font_xsmall">12sp</dimen>
+    <dimen name="font_small">14sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+
+    // Divider
+    <dimen name="divider">2dp</dimen>
+
+    // Padding / Margin
+    <dimen name="xxsmall">2dp</dimen>
+    <dimen name="xsmall">8dp</dimen>
+    <dimen name="small">16dp</dimen>
+    <dimen name="medium">24dp</dimen>
+
+    // Image Size
+    <dimen name="image">90dp</dimen>
+
+</resources>

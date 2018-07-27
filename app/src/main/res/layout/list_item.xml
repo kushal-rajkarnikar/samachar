@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/xsmall"
+    android:paddingLeft="@dimen/xsmall"
+    android:paddingRight="@dimen/xsmall"
+    android:paddingStart="@dimen/xsmall">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginStart="@dimen/small"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small"
+            android:ellipsize="end"
+            android:fontFamily="serif"
+            android:maxLines="3"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/font_xsmall"
+            android:textStyle="bold"
+            tools:text="The Art Book Tradition in Twentieth-century Europe" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/author_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_marginBottom="@dimen/xsmall"
+                android:layout_marginTop="@dimen/xsmall"
+                android:gravity="start"
+                android:textColor="@color/secondaryText"
+                android:textSize="@dimen/font_xsmall"
+                tools:text="By Jane Smith" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/primaryText"
+            android:textSize="@dimen/font_small"
+            tools:text="Exploring various ways in which a range of twentieth-century European artists and writers challenged the boundary between visual and linguistic expression in the content, production and physical form of books, these essays challenge the" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="@dimen/small"
+            android:layout_marginTop="@dimen/xsmall"
+            android:textAllCaps="true"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/font_xxsmall"
+            tools:text="Art and Design" />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginBottom="@dimen/xsmall"
+                android:layout_marginLeft="@dimen/small"
+                android:layout_marginRight="@dimen/small"
+                android:layout_marginTop="@dimen/xsmall"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@color/secondaryText"
+                android:textSize="@dimen/font_xxsmall"
+                tools:text="10-07-2017" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginEnd="@dimen/small"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:layout_marginStart="@dimen/small"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail_image"
+            android:layout_width="@dimen/image"
+            android:layout_height="@dimen/image"
+            android:layout_marginTop="@dimen/small"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>
